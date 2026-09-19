@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Form</title>
+      <meta charset="UTF-8">
+        <meta name="description" content="A site about Mac">
+        <meta name="keywords" content="Maclaine, Snowboarding, Videography">
+        <meta name="author" content="Maclaine Ni">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poiret+One&display=swap" rel="stylesheet">
+ <link rel="icon" type="image/x-icon" href="images/logo.png">
+  </head>  
+    
+  <body>
+        <header class="banner"></header>
+        
+
+    
+         <header class="title">
+            
+            <a href="index.html"><img src="images/logo.png" alt="Mp4 Mac logo" width="100" height="100"></a>
+            <div>
+              
+            <h1>Form</h1>
+            <p>Mp4Mac Videography</p>
+            
+            
+            </div>
+        </header>
+         <nav>
+        <a href="index.html">Home</a>
+        <a href="mywork.html">My Work</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="booking.html">Booking</a>
+        <a href="form.html">Form</a>
+        </nav>
+        
+      <hr>
+    
+      <h2>Leave Feedback!</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>State</th>
+                    <th>Comment</th>
+                </tr>
+                
+                <tr>
+                    <td>John Doe</td>
+                    <td>MA</td>
+                    <td>Good job!</td>
+                </tr>
+                
+                 <tr>
+                    <td>Mr. Beast</td>
+                    <td>NC</td>
+                    <td>Great service!</td>
+                </tr>
+                
+                 <tr>
+                    <td>Cheese lord</td>
+                    <td>NH</td>
+                    <td>Hype edits!</td>
+                </tr>
+            </table>
+            
+            
+            
+             <h1>Please leave feedback!</h1>
+            
+            <form method="get" action="thanks.html">
+                
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label>
+                        First name:
+                        <input type="text" name="fname" required>
+                    </label>
+                    <br>
+                    <label>
+                        Last name:
+                        <input type="text" name="lname" required>
+                    </label>
+                    <br>
+                    <label>
+                        Cell number:
+                        <input type="tel" name="phone" required placeholder="ex. 987-555-1234">
+                    </label>
+                    <br>
+                    <label>
+                        Email address:
+                        <input type="email" name="email" required>
+                    </label>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Photo or Video Delivery Method</legend>
+                    <label>
+                        <input type="radio" name="method" value="Drive">
+                        Google drive
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="method" value="phone">
+                        Directly through phone
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="method" value="Email">
+                        Email
+                    </label>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>What could I improve with my services?</legend>
+                    <label>
+                        <input type="checkbox" name="communication" value="yes">
+                       Communication
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="faster" value="yes">
+                        Faster delivery times
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="behavior" value="yes">
+                        Better behavior and a friendlier enviroment
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="quality" value="yes">
+                        Better quality of editing
+                    </label>
+                    <br>
+                    <label>Preferred Communication Times
+                     <br>   <select name="time">
+                            <option value="none">Please select</option>
+                            <option value="morning">Between 7am and 11am</option>
+                            <option value="noon">Between 11am and 2 pm</option>
+                            <option value="afternoon">Between 2pm and 5pm</option>
+                            <option value="evening">Between 5pm and 8pm</option>
+                            
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Comments</legend>
+                    <label>
+                        Any extra comments?
+                        <br><textarea name="comments" placeholder="type here"></textarea>
+                    </label>
+                </fieldset>
+                
+                <input type="reset" value="Clear Form">
+                <input type="submit" value="Send Feedback">
+            </form>
+</main>
+      
+ <footer>
+            
+             <p> &copy;2026 &bull;Maclaine Ni &bull;<a href="maclainen930@gmail.com">Email me for inquiries.</a></p>
+              <address>My home address<br>2550 Broken Hill Dr<br> Park City, UT 84098</address>
+                
+            </footer>
+            
+        </body>
+</html>
